@@ -1,0 +1,50 @@
+/* CSS code to center the elements and apply a bright blue background */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #00a8e8; /* Bright blue background color */
+}
+
+.weather-container {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff; /* White background color for weather container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#input-field {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.weather-info {
+  margin-top: 20px;
+}
+
+#city,
+#icon,
+#temperature,
+#description {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#icon {
+  font-size: 50px;
+}
