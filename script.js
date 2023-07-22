@@ -7,7 +7,7 @@ let description = document.querySelector('#description');
 
 btn.addEventListener('click', function(){
 
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${inputField.value}&appid=APP_KEY`;
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${inputField.value}&appid=YOUR_API_KEY`;
   
   fetch(url)
     .then(response => response.json())
